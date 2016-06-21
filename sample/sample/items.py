@@ -7,8 +7,8 @@
 
 import scrapy
 
-
 class SampleItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+   title = scrapy.Field()
+   time = scrapy.Field()
+   likes = scrapy.Field()
+   retweets = scrapy.Field()

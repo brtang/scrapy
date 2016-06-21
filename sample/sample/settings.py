@@ -13,7 +13,8 @@ BOT_NAME = 'sample'
 
 SPIDER_MODULES = ['sample.spiders']
 NEWSPIDER_MODULE = 'sample.spiders'
-
+#ITEM_PIPELINES = {'scrapy.contrib.pipeline.images.ImagesPipeline': 1}
+IMAGES_STORE = 'C:/Users/Brian/Documents/Scrapy/scrapy/Data'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'sample (+http://www.yourdomain.com)'
