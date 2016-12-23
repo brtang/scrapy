@@ -8,6 +8,7 @@
 import scrapy
 
 class SampleItem(scrapy.Item):
+   number = scrapy.Field()
    title = scrapy.Field()
    time = scrapy.Field()
    likes = scrapy.Field()
